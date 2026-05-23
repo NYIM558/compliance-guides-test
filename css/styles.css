@@ -123,6 +123,10 @@ body {
   border-left: 4px solid #1a56db;
   border-radius: 0 6px 6px 0;
 }
+/* Tables */
+.article-body table { width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; }
+.article-body th, .article-body td { padding: 0.6rem 0.75rem; border: 1px solid #e5e5e5; text-align: left; }
+.article-body th { background: #f9f9f9; font-weight: 600; }
 
 .article-cta p { margin: 0; }
 .article-cta a { color: #1a56db; font-weight: 500; }
