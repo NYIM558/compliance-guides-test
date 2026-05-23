@@ -1,0 +1,128 @@
+/* Oliver Stern — Compliance Guides — Placeholder Stylesheet */
+/* Replace this with your final styles.css when ready */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #1a1a1a;
+  background: #fff;
+}
+
+/* ---- Layout ---- */
+.article-container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+/* ---- Header ---- */
+.article-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.article-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  color: #111;
+}
+
+.article-meta {
+  font-size: 0.875rem;
+  color: #666;
+  display: flex;
+  gap: 1rem;
+}
+
+.article-author {}
+.article-date {}
+
+/* ---- Body ---- */
+.article-body {
+  margin-bottom: 3rem;
+}
+
+.article-body h2 { font-size: 1.5rem; font-weight: 600; margin: 2rem 0 0.75rem; }
+.article-body h3 { font-size: 1.25rem; font-weight: 600; margin: 1.75rem 0 0.5rem; }
+.article-body h4 { font-size: 1.1rem; font-weight: 600; margin: 1.5rem 0 0.5rem; }
+.article-body p  { margin-bottom: 1rem; }
+.article-body ul, .article-body ol { margin: 0 0 1rem 1.5rem; }
+.article-body li { margin-bottom: 0.25rem; }
+.article-body a  { color: #1a56db; text-decoration: underline; }
+.article-body strong { font-weight: 600; }
+.article-body em { font-style: italic; }
+.article-body table { width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; }
+.article-body th, .article-body td { padding: 0.6rem 0.75rem; border: 1px solid #e5e5e5; text-align: left; }
+.article-body th { background: #f9f9f9; font-weight: 600; }
+
+/* ---- Email capture form ---- */
+.gated-download-section {
+  background: #f5f7ff;
+  border: 1px solid #dde3ff;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.gated-download-section h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.gated-download-section p {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.gated-download-section form {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.gated-download-section input[type="email"] {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.6rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.cta-button {
+  padding: 0.6rem 1.5rem;
+  background: #1a56db;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.cta-button:hover { background: #1447b8; }
+
+.form-note {
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+/* ---- CTA block ---- */
+.article-cta {
+  padding: 1.5rem;
+  background: #f9f9f9;
+  border-left: 4px solid #1a56db;
+  border-radius: 0 6px 6px 0;
+}
+
+.article-cta p { margin: 0; }
+.article-cta a { color: #1a56db; font-weight: 500; }
